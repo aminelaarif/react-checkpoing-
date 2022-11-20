@@ -1,0 +1,20 @@
+.css {
+display:flex ;
+
+justify-content:space-around
+
+}
+
+.css1 {
+    width: 500px !important;
+    border-radius: 5px !important;
+    border: cornflowerblue;
+}
+.img1{
+    border-radius: 50% !important;
+}
+
+.color {
+    background-color: rgb(64, 65, 66) !important ;
+    border: 0ch;
+}
