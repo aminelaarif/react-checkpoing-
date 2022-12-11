@@ -1,19 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import BasicExample from './formula';
-import NavScrollExample from './navbar';
-
-import img from './aizen.jpg'
+import Adresse from './Adresse';
+import Fullname from './Fullname';
+import fullname from './Fullname';
+import Amine from  './pic/Amine.jpg'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <NavScrollExample/>
-  <div className="css">
-    <BasicExample/>
-    <img className="img1" src={img}/>
-  </div>
-  
-    
+    <img src={Amine} ></img>
+
+  <Fullname></Fullname>
+    <Adresse></Adresse>
   </React.StrictMode>
 );
 
